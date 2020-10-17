@@ -4,10 +4,10 @@ from typing import List
 
 
 class Solution:
-    def diffWaysToCompute(self, input: str) -> List[int]:
+    def diffWaysToCompute(self, inp) -> List[int]:
         operations = {"+": operator.add, "-": operator.sub, "*": operator.mul}
 
-        tokens = self.tokenize(input)
+        tokens = self.tokenize(inp)
         nums = tokens[::2]
         operators = tokens[1::2]
 
