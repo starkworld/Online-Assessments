@@ -6,7 +6,6 @@ from collections import defaultdict
 # Implement the class below, keeping the constructor's signature unchanged; it should take no arguments.
 
 
-
 # Implement the class below, keeping the constructor's signature unchanged; it should take no arguments.
 class Company:
     def __init__(self, name):
@@ -141,5 +140,4 @@ def assertEqual(a, b):
 
 
 if __name__ == '__main__':
-
     M = MarkingPositionMonitor()
