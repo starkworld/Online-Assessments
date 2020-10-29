@@ -1,7 +1,5 @@
 """ I have an array of positive integers and a target integer, how many subarrays sum to the target"""
 
-
-
 from collections import defaultdict
 
 
