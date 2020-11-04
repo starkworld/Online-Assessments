@@ -1,6 +1,3 @@
-"""OA practice"""
-
-
 def trades(lis):
     lst1 = []
     for i in lis:
