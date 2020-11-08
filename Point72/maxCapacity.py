@@ -11,7 +11,6 @@ start = time.time()
 # end time
 
 
-
 def combs(a):
     if len(a) == 0:
         return [[]]
@@ -23,15 +22,14 @@ def combs(a):
 
 def maxCapacity(sequence, ma):
     k = combs(sequence)
-    j = [sum(i) for i in k if sum(i) <= ma]
-    print(max(j))
+    return max([sum(i) for i in k if sum(i) <= ma])
 
 
-# weights = [7, 10, 19, 37, 30, 11, 35, 16]
-# max_Capacity = 49
-weights = [1, 3, 5]
-max_Capacity = 7
-maxCapacity(weights, max_Capacity)
+weights = [7, 10, 19, 37, 30, 11, 35, 16]
+max_Capacity = 49
+# weights = [1, 3, 5]
+# max_Capacity = 7
+print(maxCapacity(weights, max_Capacity))
 
 # time.sleep(1)
 end = time.time()
