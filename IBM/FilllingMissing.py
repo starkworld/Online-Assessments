@@ -13,7 +13,6 @@ def calcMissing(readings):
         except:
             missing_indices.append(i)
 
-    predictions = []
     for i in missing_indices:
         list_floats = []
         a, b = i - 1, i + 1
